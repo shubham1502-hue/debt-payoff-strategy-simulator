@@ -1,0 +1,9 @@
+loan_name,loan_type,balance,interest_rate,min_payment
+Chase Sapphire Credit Card,credit_card,4820,0.2399,145
+Capital One Credit Card,credit_card,2150,0.2199,70
+Federal Student Loan A,student_loan,18600,0.045,210
+Federal Student Loan B,student_loan,12450,0.052,165
+Auto Loan - Toyota Corolla,auto_loan,14300,0.069,325
+Personal Loan - LendingClub,personal_loan,7600,0.129,240
+Medical Debt,medical,3100,0.089,120
+Buy Now Pay Later Balance,consumer_credit,950,0.199,60
