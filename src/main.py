@@ -76,6 +76,10 @@ def main():
 
     plt.legend()
 
+    payoff_curve_path = os.path.join(OUTPUT_DIR, "payoff_curve.png")
+    plt.savefig(payoff_curve_path)
+    print(f"Payoff curve: {payoff_curve_path}")
+
     plt.show()
 
 

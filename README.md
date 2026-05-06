@@ -1,5 +1,21 @@
 # Debt Payoff Strategy Simulator
 
+## Problem This Solves
+
+Borrowers and fintech teams often know the names of debt payoff strategies but cannot see the month-by-month trade-off between psychological momentum and interest minimization. The problem is turning multiple loans into a clear repayment decision.
+
+## How It Helps
+
+- Compares Snowball and Avalanche payoff strategies on payoff months, total interest, and interest saved.
+- Exports repayment schedules so users can inspect the exact month-by-month balance path.
+- Gives fintech, lending, and personal finance teams a forkable simulator for customer-facing debt payoff planning.
+
+## When To Fork This
+
+- Fork this if you are building a personal finance, lending, debt counseling, or credit education workflow.
+- Fork it when users need to compare repayment strategies using their own loan balances, interest rates, minimum payments, and extra monthly payment.
+- Add more strategies, user input, or a dashboard layer once the basic simulator matches your product use case.
+
 A Python-based financial analytics project that simulates different debt repayment strategies across multiple loans. The simulator compares the **Snowball** and **Avalanche** payoff methods to determine which strategy minimizes interest and reduces payoff time.
 
 This project demonstrates financial modeling, simulation-based strategy evaluation, and data-driven analysis using Python.
@@ -132,14 +148,14 @@ The system also exports repayment schedules to CSV files for further analysis.
 Clone the repository:
 
 ```
-git clone https://github.com/yourusername/debt-payoff-strategy-simulator.git
+git clone https://github.com/shubham1502-hue/debt-payoff-strategy-simulator.git
 cd debt-payoff-strategy-simulator
 ```
 
 Install dependencies:
 
 ```
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ---
@@ -149,7 +165,7 @@ pip install -r requirements.txt
 Execute the main simulation script:
 
 ```
-python src/main.py
+python3 src/main.py
 ```
 
 The program will:
