@@ -22,6 +22,21 @@ This project demonstrates financial modeling, simulation-based strategy evaluati
 
 ---
 
+## Use This In Your Company
+
+- Use it as a repayment strategy simulator inside personal finance, lending, or customer education workflows.
+- Keep the strategy comparison: snowball, avalanche, payoff month, total interest, and schedule exports.
+- Replace sample loan balances, rates, minimum payments, and extra monthly payment.
+
+## Minimum Edits To Make It Yours
+
+- loan list
+- interest rates
+- minimum payments
+- extra monthly payment
+
+The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+
 ## Project Overview
 
 Many individuals carry multiple forms of debt such as credit cards, personal loans, and auto loans. Choosing the right repayment strategy can significantly reduce the **total interest paid** and **time required to become debt-free**.
