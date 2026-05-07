@@ -24,6 +24,8 @@ This project demonstrates financial modeling, simulation-based strategy evaluati
 
 ## Use This In Your Company
 
+This repo is designed to be forked into an internal company workflow. Fork it, replace the sample inputs with your company context, and keep only the parts that match your operating cadence. No permission request or sales call is needed before using it; the repo is the handoff. Check the license if you plan to redistribute your version.
+
 - Use it as a repayment strategy simulator inside personal finance, lending, or customer education workflows.
 - Keep the strategy comparison: snowball, avalanche, payoff month, total interest, and schedule exports.
 - Replace sample loan balances, rates, minimum payments, and extra monthly payment.
