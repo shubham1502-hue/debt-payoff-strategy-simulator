@@ -32,12 +32,16 @@ This repo is designed to be forked into an internal company workflow. Fork it, r
 
 ## Minimum Edits To Make It Yours
 
-- loan list
-- interest rates
-- minimum payments
-- extra monthly payment
+Change these first:
 
-The fastest path is: fork the repo, replace the inputs above, run the demo or open the template, then adjust only the parts that reflect your company's workflow.
+| Edit | Where | Why |
+|---|---|---|
+| Replace the loan list. | `data/loans.csv` | This is the main input for every payoff schedule and interest calculation. |
+| Update interest rates and minimum payments. | `data/loans.csv` | These fields determine how aggressive each strategy should be. |
+| Set available extra monthly payment. | `src/main.py` or CLI/input configuration | Makes payoff timelines realistic for the user or company scenario. |
+| Choose the comparison strategies. | `src/strategies.py` | Lets you compare avalanche, snowball, or custom prioritization rules. |
+
+You can leave the loan model, analytics helpers, and plotting/reporting structure alone on the first fork. Validate the output on one clean loan set before adding new repayment products.
 
 ## Project Overview
 
