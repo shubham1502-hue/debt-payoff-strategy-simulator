@@ -4,6 +4,10 @@ Debt payoff simulator comparing Snowball and Avalanche strategies across payoff 
 
 <!-- FOUNDER_OS_STANDARD_README -->
 
+## Portfolio role
+
+This is an older, learning-oriented finance simulation project. Keep it as secondary proof of Python modeling and repayment-strategy logic, not as a flagship Founder OS repo or founder operating-system module.
+
 ## The founder problem
 
 Borrowers and fintech teams often know the names of debt payoff strategies but cannot see the month-by-month trade-off between psychological momentum and interest minimization.
@@ -110,7 +114,7 @@ Customize these before using the repo for a real company:
 
 ## Where this fits in the Founder OS
 
-This is a niche fintech simulation module. It sits outside the main Founder OS core but demonstrates decision-oriented financial tooling.
+This is a niche fintech simulation project. It sits outside the main Founder OS core and should be read as older finance modeling proof, not as a current founder operating-system module.
 
 ## Why this matters
 
